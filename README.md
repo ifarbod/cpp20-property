@@ -13,11 +13,11 @@ class ProperyTest
 public:
     zsl::Property<int> prop{m_something,
         {
-            .get = [this](auto& var)
+            .get = [this](auto& var) constexpr
             {
                 return var + 2;
             },
-            .set = [this](auto& var, auto value)
+            .set = [this](auto& var, auto value) constexpr
             {
                 var = value;
             }}};
