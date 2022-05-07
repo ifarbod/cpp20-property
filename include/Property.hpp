@@ -46,7 +46,6 @@ public:
 private:
     T& m_ref;
     GetterSetter m_gettersetter;
-}
-;
+};
 
 }  // namespace zsl
