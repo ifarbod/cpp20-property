@@ -20,7 +20,9 @@ public:
             .set = [this](auto& var, auto value) constexpr
             {
                 var = value;
-            }}};
+            }
+        }
+    };
 
 private:
     int m_something = 0;
