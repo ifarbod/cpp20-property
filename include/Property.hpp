@@ -1,4 +1,6 @@
-// Copyright (c) 2022 iFarbod
+// Copyright (c) 2022 iFarbod. All Rights Reserved.
+//
+// SPDX-License-Identifier: Unlicense
 
 #pragma once
 
